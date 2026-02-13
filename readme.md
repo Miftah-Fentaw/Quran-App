@@ -13,14 +13,6 @@ A beautiful, distraction-free Quran reading application.
 - No ads or tracking
 - Privacy-focused design
 
-## Privacy
-
-This app respects your privacy:
-- No data collection
-- No internet access required
-- No advertisements
-- No user tracking
-
 ## Installation
 
 Download from your app store and install.
