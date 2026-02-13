@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Quran</title>
+    <meta name="description" content="A beautiful, distraction-free Quran reading application. Read the Holy Quran online with ease and clarity.">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+
+<body id="top">
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-jump">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+
+    <!-- header 
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="row">
+            <div class="header-logo">
+                <a class="site-logo" href="index.html">
+                    <img src="images/logo.png" alt="Homepage" style="height:40px;width:auto;border-radius: 30px;">
+                </a>
+            </div>
+    
+            <nav class="header-nav-wrap">
+                <ul class="header-main-nav">
+                    <li class="current"><a class="smoothscroll" href="#home" title="intro">Home</a></li>
+                    <li><a class="smoothscroll" href="#about" title="about">About</a></li>
+                    <li><a class="smoothscroll" href="#footer" title="Contact us">Contact us</a></li>
+                    <li><a href="privacy.html" target="_blank" rel="noopener" title="Privacy Policy">Privacy Policy</a></li>
+                </ul>
+    
+                <div class="header-cta">
+                    <a href="#download" class="btn btn--primary header-cta__btn smoothscroll">Read Quran</a>
+                </div>
+            </nav> <!-- end header-nav-wrap -->
+    
+            <a class="header-menu-toggle" href="#"><span>Menu</span></a>
+        </div>
+
+    </header> <!-- end header -->
+
+
+    <!-- home
+    ================================================== -->
+    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+        <div class="shadow-overlay"></div>
+
+        <div class="home-content">
+
+            <div class="row home-content__main">
+
+                <div class="home-content__left">
+                    <h1>
+                    An Amazing App <br>
+                    That Does It All.
+                    </h1>
+    
+                    <h3>
+                    Voluptatem ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explica. Nemo enim ipsam voluptatem quia. 
+                    Ut quis enim.
+                    </h3>
+    
+                    <div class="row">
+            <div class="col-full text-center">
+                <ul class="download-badges" data-aos="fade-up">
+                    <li style="list-style:none;display:inline-block;margin:0 18px 0 0;padding:0;">
+                        <a href="https://apps.apple.com/" target="_blank" title="App Store" class="badge-appstore">
+                            <img src="images/appstore.png" alt="App Store" style="height:70px;width:auto;display:inline-block;vertical-align:middle;box-shadow:0 2px 8px rgba(0,0,0,0.12);border-radius:12px;">
+                        </a>
+                    </li>
+                    <li style="list-style:none;display:inline-block;margin:0;padding:0;">
+                        <a href="https://play.google.com/store" target="_blank" title="Play Store" class="badge-googleplay">
+                            <img src="images/google-play.png" alt="Play Store" style="height:70px;width:auto;display:inline-block;vertical-align:middle;box-shadow:0 2px 8px rgba(0,0,0,0.12);border-radius:12px;">
+                        </a>
+                    </li>
+                </ul>
+                <style>
+                .download-badges {
+                    list-style: none;
+                    padding: 0;
+                    margin: 0;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 24px;
+                }
+                .download-badges li {
+                    list-style: none;
+                    margin: 0;
+                    padding: 0;
+                }
+                </style>
+            </div> 
+        </div>
+                </div> <!-- end home-content__left-->
+
+                <div class="home-content__right">
+                    <div style="display:flex;flex-wrap:wrap;gap:15px;justify-content:center;align-items:center;">
+                        <div style="position:relative;">
+                            <img src="images/screenshots/scrsht1.jpg" alt="Quran App Screenshot 1" style="width:280px;height:650px;object-fit:cover;border-radius:18px;box-shadow:0 8px 25px rgba(0,0,0,0.3);transform:rotate(-2deg);transition:transform 0.3s ease,box-shadow 0.3s ease;">
+                            <div style="position:absolute;top:-10px;right:-10px;background:#FFD600;color:#000;padding:8px 16px;border-radius:20px;font-weight:bold;font-size:14px;box-shadow:0 4px 15px rgba(255,214,0,0.4);">Reading View</div>
+                        </div>
+                        <div style="position:relative;">
+                            <img src="images/screenshots/scrsht2.jpg" alt="Quran App Screenshot 2" style="width:280px;height:650px;object-fit:cover;border-radius:18px;box-shadow:0 8px 25px rgba(0,0,0,0.3);transform:rotate(2deg);transition:transform 0.3s ease,box-shadow 0.3s ease;">
+                            <div style="position:absolute;top:-10px;right:-10px;background:#4CAF50;color:#fff;padding:8px 16px;border-radius:20px;font-weight:bold;font-size:14px;box-shadow:0 4px 15px rgba(76,175,80,0.4);">Surah List</div>
+                        </div>
+                    </div>
+                    <style>
+                    .home-content__right img:hover {
+                        transform: rotate(0deg) scale(1.05);
+                        box-shadow: 0 12px 35px rgba(0,0,0,0.4);
+                    }
+                    @media (max-width: 1200px) {
+                        .home-content__right img {
+                            width: 240px;
+                            height: 560px;
+                        }
+                    }
+                    @media (max-width: 980px) {
+                        .home-content__right img {
+                            width: 200px;
+                            height: 470px;
+                        }
+                    }
+                    @media (max-width: 768px) {
+                        .home-content__right img {
+                            width: 160px;
+                            height: 380px;
+                        }
+                    }
+                    @media (max-width: 600px) {
+                        .home-content__right div {
+                            flex-direction: column;
+                        }
+                        .home-content__right img {
+                            width: 200px;
+                            height: 470px;
+                        }
+                    }
+                    </style>
+                </div> <!-- end home-content__right -->
+
+            </div> <!-- end home-content__main -->
+
+            <ul class="home-content__social">
+                <li><a href="#0">Facebook</a></li>
+                <li><a href="#0">twitter</a></li>
+                <li><a href="#0">Instagram</a></li>
+                    <h1>
+                    Read the Holy Quran<br>
+                    Anywhere, Anytime
+                    </h1>
+    
+                    <h3>
+                    Experience a beautiful, distraction-free Quran reading app. Simple, elegant, and focused on your connection with the Quran.
+                    </h3>
+    </section> <!-- end s-home -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+            <div class="col-full">
+                <h1 class="display-1">
+                    The Ultimate Quran Reading Experience
+                </h1>
+                <p class="lead">
+                    Discover a seamless and immersive way to read the Holy Quran. Our app is designed for clarity, focus, and ease of use—perfect for every reader.
+                </p>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row wide about-desc" data-aos="fade-up">
+
+            <div class="col-full slick-slider about-desc__slider">
+
+                <div class="about-desc__slide">
+                    <h3 class="item-title">Intuitive Reading</h3>
+                    <p>
+                    Effortlessly navigate Surahs and Ayahs with a clean, user-friendly interface designed for all ages.
+                    </p>
+                </div>  <!-- end about-desc__slide -->
+                <div class="about-desc__slide">
+                    <h3 class="item-title">Beautiful Typography</h3>
+                    <p>
+                    Enjoy crisp, clear Arabic script for a comfortable and focused reading experience.
+                    </p>
+                </div>  <!-- end about-desc__slide -->
+                <div class="about-desc__slide">
+                    <h3 class="item-title">Bookmark & Resume</h3>
+                    <p>
+                    Save your place and return to your reading instantly, anytime you open the app.
+                    </p>
+                </div>  <!-- end about-desc__slide -->
+                <div class="about-desc__slide">
+                    <h3 class="item-title">No Distractions</h3>
+                    <p>
+                    Focus solely on the Quran—no ads, no notifications, just the words of Allah (SWT).
+                    </p>
+                </div>  <!-- end about-desc__slide -->
+
+            </div> <!-- end about-desc__slider -->
+            
+        </div> <!-- end about-desc -->
+
+    </section> <!-- end s-about -->
+
+
+    <!-- about-how
+    ================================================== -->
+    <section id="about-how" class="s-about-how">
+
+        <div class="row">
+           <div class="col-full video-bg" data-aos="fade-up">
+
+                <div class="shadow-overlay"></div>
+
+                <a class="btn-video" href="https://player.vimeo.com/video/14592941?color=00a650&title=0&byline=0&portrait=0" data-lity>
+                    <span class="video-icon"></span>
+                </a>
+
+                <div class="stats">
+                    <div class="item-stats">
+                        <span class="item-stats__num">
+                            3.1M
+                        </span>
+                        <span class="item-stats__title">
+                            Downloads
+                        </span>
+                    </div> <!-- end item-stats -->
+                    <div class="item-stats">
+                        <span class="item-stats__num">
+                            24K
+                        </span>
+                        <span class="item-stats__title">
+                            Positive Reviews
+                        </span>
+                    </div> <!-- end item-stats -->
+                </div>
+           </div> <!-- end video-bg -->
+        </div>
+
+        <div class="row process-wrap">
+
+            <h2 class="display-2 text-center" data-aos="fade-up">How The App Works?</h2>
+
+            <div class="process" data-aos="fade-up">
+                <div class="process__steps block-1-2 block-tab-full group">
+
+                    <div class="col-block step">
+                        <h3 class="item-title">Sign-Up</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+                        </p> 
+                    </div>
+
+                    <div class="col-block step">
+                        <h3 class="item-title">Create</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+                        </p> 
+                    </div>
+               
+                    <div class="col-block step">
+                        <h3 class="item-title">Compose</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+                        </p> 
+                    </div>
+
+                    <div class="col-block step">
+                        <h3 class="item-title">Send</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+                        </p> 
+                    </div>  
+
+                </div> <!-- end process__steps -->
+           </div> <!-- end process -->
+        </div> <!-- end about-how -->
+
+    </section> <!-- end s-about-how -->
+
+
+
+
+
+    <!-- footer
+    ================================================== -->
+    <footer id="footer" class="s-footer footer">
+
+        <div class="row section-header align-center">
+            <div class="col-full">
+                <h1 class="display-1">
+                    Let's Stay In Touch.
+                </h1>
+                <p class="lead">
+                Subscribe for updates, special offers, and other amazing stuff.
+                </p>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row footer__top">
+
+            <div class="col-full footer__subscribe end">
+                <div class="subscribe-form">
+                    <form id="mc-form" class="group" novalidate="true">
+
+                        <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
+            
+                        <input type="submit" name="subscribe" value="Sign Up">
+            
+                        <label for="mc-email" class="subscribe-message"></label>
+            
+                    </form>
+                </div>
+            </div>
+
+        </div> <!-- end footer__top -->
+
+        <div class="row footer__bottom">
+
+            <div class="footer__about col-five tab-full left">
+
+                <h4>About Kairos.</h4>
+
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed 
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                laboris nisi ut aliquip ex consectetur adipisicing elit do eiusmod tempor.
+                </p>
+
+                <ul class="footer__social">
+                    <li><a href="#0"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                    <li><a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="#0"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+
+            <div class="col-five md-seven tab-full right end">
+                <div class="row">
+
+                    <div class="footer__site-links col-five mob-full">
+                        <h4>Site links.</h4>
+
+                        <ul class="footer__site-links">
+                            <li><a href="#home" class="smoothscroll">Intro</a></li>
+                            <li><a href="#about" class="smoothscroll">About</a></li>
+                            <li><a href="#0">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__contact col-seven mob-full">
+                        <h4>Contact Us.</h4>
+
+                        <p>
+                        Phone: (+63) 555 1212 <br>
+                        Fax: (+63) 555 0100
+                        </p>
+                        <p>
+                        Need help or have a question? Contact us at: <br>
+                        <a href="mailto:#0" class="footer__mail-link">support@kairos.com</a>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-full ss-copyright">
+                <span>&copy; Copyright Kairos 2018</span> 
+                <span>Design by <a href="https://www.styleshout.com/">styleshout</a></span>
+            </div>
+
+        </div> <!-- end footer__bottom -->
+
+        <div class="go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top"></a>
+        </div>
+
+    </footer> <!-- end s-footer -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>

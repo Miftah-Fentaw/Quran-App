@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - Quran App</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Nunito Sans', Arial, sans-serif;
+      background: #000;
+      color: #FFD600;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    header {
+      background: linear-gradient(135deg, #111 0%, #1a1a1a 100%);
+      padding: 60px 0;
+      text-align: center;
+      border-bottom: 2px solid #FFD600;
+    }
+    header h1 {
+      color: #FFD600;
+      font-size: 3.5em;
+      margin: 0 0 10px 0;
+      text-shadow: 0 2px 10px rgba(255, 214, 0, 0.3);
+    }
+    header .last-updated {
+      color: #fff;
+      font-size: 1.1em;
+      opacity: 0.8;
+    }
+    .intro-section {
+      background: #111;
+      padding: 40px 0;
+      border-bottom: 1px solid #333;
+    }
+    .intro-section p {
+      color: #fff;
+      font-size: 1.2em;
+      margin: 0;
+      line-height: 1.8;
+    }
+    main {
+      background: #000;
+      padding: 60px 0;
+    }
+    .section {
+      background: #111;
+      margin-bottom: 40px;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .section:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 30px rgba(255, 214, 0, 0.1);
+    }
+    .section-header {
+      background: linear-gradient(135deg, #1a1a1a 0%, #222 100%);
+      padding: 25px 30px;
+      border-left: 5px solid #FFD600;
+    }
+    .section-header h2 {
+      color: #FFD600;
+      font-size: 1.8em;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .section-content {
+      padding: 30px;
+    }
+    .section-content p {
+      color: #fff;
+      font-size: 1.1em;
+      margin-bottom: 1.5em;
+      line-height: 1.8;
+    }
+    .section-content ul {
+      margin: 0 0 1.5em 0;
+      padding: 0;
+      list-style: none;
+    }
+    .section-content li {
+      color: #fff;
+      font-size: 1.05em;
+      margin-bottom: 12px;
+      padding-left: 25px;
+      position: relative;
+      line-height: 1.6;
+    }
+    .section-content li:before {
+      content: "▸";
+      position: absolute;
+      left: 0;
+      color: #FFD600;
+      font-weight: bold;
+    }
+    strong {
+      color: #FFD600;
+      font-weight: 600;
+    }
+    .highlight-list li:before {
+      content: "✓";
+      color: #4CAF50;
+    }
+    .negative-list li:before {
+      content: "✗";
+      color: #f44336;
+    }
+    .contact-section {
+      background: linear-gradient(135deg, #111 0%, #1a1a1a 100%);
+      padding: 40px 0;
+      text-align: center;
+      border-top: 2px solid #FFD600;
+    }
+    .contact-section p {
+      color: #fff;
+      font-size: 1.1em;
+      margin-bottom: 15px;
+    }
+    .contact-section a {
+      color: #FFD600;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+    .contact-section a:hover {
+      color: #fff;
+      text-decoration: underline;
+    }
+    .verse-quote {
+      text-align: center;
+      font-style: italic;
+      color: #FFD600;
+      font-size: 1.3em;
+      margin: 40px 0;
+      padding: 30px;
+      background: linear-gradient(135deg, #1a1a1a 0%, #222 100%);
+      border-radius: 12px;
+      border: 1px solid #333;
+    }
+    footer {
+      background: #111;
+      padding: 30px 0;
+      text-align: center;
+      border-top: 1px solid #333;
+    }
+    footer p {
+      color: #fff;
+      margin: 0;
+      opacity: 0.7;
+    }
+    
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2.5em;
+      }
+      header {
+        padding: 40px 0;
+      }
+      main {
+        padding: 40px 0;
+      }
+      .section-header {
+        padding: 20px;
+      }
+      .section-header h2 {
+        font-size: 1.5em;
+      }
+      .section-content {
+        padding: 20px;
+      }
+      .container {
+        padding: 0 15px;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      header h1 {
+        font-size: 2em;
+      }
+      .section-header h2 {
+        font-size: 1.3em;
+      }
+      .section-content {
+        padding: 15px;
+      }
+      .verse-quote {
+        font-size: 1.1em;
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Privacy Policy</h1>
+      <p class="last-updated">Last Updated: February 2026</p>
+    </div>
+  </header>
+
+  <section class="intro-section">
+    <div class="container">
+      <p>Welcome to the Quran Reading App. We are committed to protecting your privacy and ensuring transparency about how we handle your data. This comprehensive privacy policy explains our data practices in detail when you use our application.</p>
+    </div>
+  </section>
+
+  <main>
+    <div class="container">
+      
+      <div class="section">
+        <div class="section-header">
+          <h2>🔒 Our Privacy Commitment</h2>
+        </div>
+        <div class="section-content">
+          <p>At Quran Reading App, we believe privacy is a fundamental right. Our commitment includes:</p>
+          <ul class="highlight-list">
+            <li><strong>Zero data collection:</strong> We don't collect, store, or transmit any personal information</li>
+            <li><strong>Complete offline functionality:</strong> All features work without internet connection</li>
+            <li><strong>No tracking or analytics:</strong> We don't monitor how you use the app</li>
+            <li><strong>Transparent practices:</strong> This policy clearly explains everything we do (and don't do)</li>
+            <li><strong>User control:</strong> You have full control over your device and data</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-header">
+          <h2>📱 App Functionality & Data Usage</h2>
+        </div>
+        <div class="section-content">
+          <p>Our app provides a complete Quran reading experience with the following features:</p>
+          <ul>
+            <li><strong>Browse & Read:</strong> Access all 114 Surahs with complete Arabic text</li>
+            <li><strong>Navigation:</strong> Easy page-by-page navigation with smooth transitions</li>
+            <li><strong>Theme Options:</strong> Switch between light and dark themes for comfortable reading</li>
+            <li><strong>Screenshot Feature:</strong> Capture and save Quran verses to your device gallery</li>
+            <li><strong>Bookmark System:</strong> Save your favorite verses and Surahs for quick access</li>
+            <li><strong>Search Functionality:</strong> Find specific verses or topics quickly</li>
+          </ul>
+          <p><strong>Important:</strong> All these features work entirely offline. No data is transmitted to any server, cloud service, or third-party provider.</p>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-header">
+          <h2>🛡️ Data Collection Practices</h2>
+        </div>
+        <div class="section-content">
+          <p>We want to be crystal clear about what we <strong>don't</strong> collect:</p>
+          <ul class="negative-list">
+            <li>No personal identifiers (name, email, phone, address)</li>
+            <li>No device information or unique identifiers</li>
+            <li>No location data or GPS information</li>
+            <li>No usage analytics or behavioral tracking</li>
+            <li>No crash reports or diagnostic data</li>
+            <li>No app performance metrics</li>
+            <li>No user preferences stored externally</li>
+          </ul>
+          <p>The only data stored on your device is:</p>
+          <ul class="highlight-list">
+            <li>Quran text files (included in the app installation)</li>
+            <li>User-selected theme preference (light/dark mode)</li>
+            <li>Bookmark locations (stored locally on your device)</li>
+            <li>Screenshot images (saved to your device gallery)</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-header">
+          <h2>🔐 Permissions & Access Rights</h2>
+        </div>
+        <div class="section-content">
+          <p>Our app operates with minimal permissions to protect your privacy:</p>
+          <ul>
+            <li><strong>Storage Access:</strong> Required only for saving screenshots to your device gallery</li>
+            <li><strong>No Internet Permission:</strong> The app cannot connect to the internet even if it wanted to</li>
+            <li><strong>No Location Access:</strong> We don't need or request your location</li>
+            <li><strong>No Contacts Access:</strong> We don't access your contacts or address book</li>
+            <li><strong>No Camera/Microphone:</strong> We don't access these hardware components</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-header">
+          <h2>🚫 No Advertising or Tracking</h2>
+        </div>
+        <div class="section-content">
+          <p>We are committed to an ad-free experience:</p>
+          <ul>
+            <li><strong>No advertisements:</strong> We don't display any ads within the app</li>
+            <li><strong>No analytics trackers:</strong> We don't use Google Analytics, Facebook Pixel, or similar services</li>
+            <li><strong>No behavioral advertising:</strong> We don't track your reading habits or preferences</li>
+            <li><strong>No data brokers:</strong> We don't sell or share your data with third parties</li>
+            <li><strong>No cross-device tracking:</strong> We don't link your activity across devices</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-header">
+          <h2>🌐 Third-Party Services</h2>
+        </div>
+        <div class="section-content">
+          <p>Our independence extends to third-party services:</p>
+          <ul>
+            <li><strong>No SDK integration:</strong> We don't integrate third-party software development kits</li>
+            <li><strong>No cloud services:</strong> We don't use AWS, Google Cloud, or similar services</li>
+            <li><strong>No social media integration:</strong> We don't connect to Facebook, Twitter, or other platforms</li>
+            <li><strong>No payment processors:</strong> The app is completely free with no in-app purchases</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-header">
+          <h2>📊 Data Security & Protection</h2>
+        </div>
+        <div class="section-content">
+          <p>While we don't collect personal data, we still implement security measures:</p>
+          <ul>
+            <li><strong>Local storage only:</strong> All data remains on your device</li>
+            <li><strong>No network transmission:</strong> Eliminates interception risks</li>
+            <li><strong>Secure app signing:</strong> Prevents tampering with the application</li>
+            <li><strong>Regular updates:</strong> Security patches and improvements</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-header">
+          <h2>👥 Children's Privacy</h2>
+        </div>
+        <div class="section-content">
+          <p>Our app is suitable for users of all ages, including children:</p>
+          <ul>
+            <li><strong>No age restrictions:</strong> The app doesn't collect age information</li>
+            <li><strong>COPPA compliant:</strong> We don't collect information from children under 13</li>
+            <li><strong>Safe content:</strong> All content is appropriate for all age groups</li>
+            <li><strong>No social features:</strong> No communication with other users</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-header">
+          <h2>🔄 Updates to This Policy</h2>
+        </div>
+        <div class="section-content">
+          <p>We may update this privacy policy occasionally to:</p>
+          <ul>
+            <li>Reflect changes in app functionality</li>
+            <li>Comply with new privacy regulations</li>
+            <li>Provide additional clarity or detail</li>
+            <li>Update contact information</li>
+          </ul>
+          <p><strong>Notification of Changes:</strong> Any material changes will be highlighted in the app with a notification when you next use it. The "Last Updated" date at the top of this policy will always reflect the most recent changes.</p>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-header">
+          <h2>⚖️ Legal & Regulatory Compliance</h2>
+        </div>
+        <div class="section-content">
+          <p>Our privacy practices comply with major privacy regulations:</p>
+          <ul>
+            <li><strong>GDPR (General Data Protection Regulation):</strong> Fully compliant as we don't process personal data</li>
+            <li><strong>CCPA (California Consumer Privacy Act):</strong> No personal data to protect or delete</li>
+            <li><strong>PIPEDA (Canada):</strong> No personal information collection</li>
+            <li><strong>PDPA (Singapore):</strong> No data processing activities</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-header">
+          <h2>📧 Contact Information</h2>
+        </div>
+        <div class="section-content">
+          <p>We value your privacy and are here to help:</p>
+          <ul>
+            <li><strong>Email:</strong> <a href="mailto:miftahfentaw186@gmail.com">miftahfentaw186@gmail.com</a></li>
+            <li><strong>Response Time:</strong> We typically respond within 48 hours</li>
+            <li><strong>Language:</strong> We respond in English and Arabic</li>
+          </ul>
+          <p><strong>What you can contact us about:</strong></p>
+          <ul>
+            <li>Questions about this privacy policy</li>
+            <li>Concerns about privacy practices</li>
+            <li>Technical issues with the app</li>
+            <li>Suggestions for improvement</li>
+            <li>Requests for accessibility features</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-header">
+          <h2>🎯 Your Rights & Choices</h2>
+        </div>
+        <div class="section-content">
+          <p>Since we don't collect personal data, you have complete control:</p>
+          <ul>
+            <li><strong>Right to access:</strong> You already have access to all your data (it's on your device)</li>
+            <li><strong>Right to delete:</strong> Simply uninstall the app to remove all data</li>
+            <li><strong>Right to port:</strong> Your screenshots are already in your device gallery</li>
+            <li><strong>Right to object:</strong> There's nothing to object to as we don't process your data</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-header">
+          <h2>📖 Additional Information</h2>
+        </div>
+        <div class="section-content">
+          <p><strong>App Version:</strong> This policy applies to the current version of Quran Reading App and all future updates unless otherwise specified.</p>
+          <p><strong>Platform Availability:</strong> This privacy policy applies across all platforms where the app is available (Android, iOS, Web).</p>
+          <p><strong>Open Source:</strong> Our commitment to transparency extends to our codebase, which is available for review.</p>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-header">
+          <h2>💝 Our Promise</h2>
+        </div>
+        <div class="section-content">
+          <p>We created this app to help people connect with the Quran in a private, respectful environment. Our promise to you:</p>
+          <ul>
+            <li>We will never collect your personal information</li>
+            <li>We will never show advertisements</li>
+            <li>We will never track your reading habits</li>
+            <li>We will never sell your data to third parties</li>
+            <li>We will always maintain this privacy-first approach</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="verse-quote">
+        "Indeed, Allah is with those who fear Him and those who are doers of good." - Quran 16:128
+      </div>
+
+    </div>
+  </main>
+
+  <section class="contact-section">
+    <div class="container">
+      <p><strong>Thank you</strong> for trusting Quran Reading App with your spiritual journey. Your privacy is not just important—it's fundamental to our mission.</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Quran Reading App. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
